@@ -1,0 +1,8 @@
+print('\033[1;33m=-=' * 15)
+print('NUMERO E SEUS DIGITOS SEPARADOS')
+print('=-=' * 15)
+numero = int(input('\033[1;97mDigite um numero de 0 a 9999: '))
+print(f"\033[1;32mUnidade: {numero % 10}")
+print(f"Dezena: {numero % 100 // 10}")
+print(f"Centena: {numero % 1000 // 100}")
+print(f"Milhar: {numero % 10000 // 1000}")

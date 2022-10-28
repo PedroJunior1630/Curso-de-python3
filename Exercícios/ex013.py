@@ -1,0 +1,8 @@
+print("\033[1;32m=-=" * 15)
+print("AUMENTO SALARIAL 15%")
+print("=-=" * 15)
+salario = float(input('\033[1;97mDigite seu salário: '))
+aumento = salario + (salario * 15 / 100)
+print('\033[1;33m===' * 10)
+print(f'Seu salario de R${salario} \nAumento de 15%\nSalario reajustando...\nNovo salário R${aumento}')
+print('===' * 10)

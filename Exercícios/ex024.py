@@ -1,0 +1,5 @@
+print('\033[1;37m=-=' * 10)
+print('ESSA CIDADE COMEÇA COM...?')
+print('=-=' * 10)
+cidade = str(input('\033[1;97mDigite o nome de uma cidade: ')).strip().upper().split()
+print(f'\033[1;35mEsta cidade começa com santo? {"SANTO" in cidade[0]}')

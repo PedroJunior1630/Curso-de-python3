@@ -1,0 +1,10 @@
+from random import choice
+print('\033[1;33m=+='*25)
+print("SORTEANDO UM DE QUATRO ALUNOS PARA SORTEAR O QUADRO")
+print('=+='*25)
+n1 = input('\033[1;97mDigite o primeiro nome: ')
+n2 = input('Digite o segundo nome: ')
+n3 = input('Digite o terceiro nome: ')
+n4 = input('Digite o quarto nome: ')
+ale = choice([n1, n2, n3, n4])
+print(f'\033[1;34mO escolhido para apagar o quadro foi {ale}')
